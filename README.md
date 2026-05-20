@@ -10,6 +10,10 @@ Projeto acadêmico interdisciplinar do curso de Análise e Desenvolvimento de Si
 
 ![Preview do Sistema](assets/preview.png)
 
+# Fluxo Completo do Sistema
+
+![Fluxo Completo](assets/fluxo-completo.png)
+
 ---
 
 # Objetivo
