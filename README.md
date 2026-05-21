@@ -10,9 +10,17 @@ Projeto acadêmico interdisciplinar do curso de Análise e Desenvolvimento de Si
 
 ![Preview do Sistema](assets/preview.png)
 
-# Fluxo Completo do Sistema
+---
+
+# Fluxo Completo Mobile
 
 ![Fluxo Completo](assets/fluxo-completo.png)
+
+---
+
+# Fluxo Completo Tablet
+
+![Fluxo Completo Tablet](assets/fluxo-completo-tablet.png)
 
 ---
 
@@ -35,6 +43,7 @@ O objetivo do sistema é otimizar o gerenciamento da barbearia Torres Barber Clu
 * Seleção de horário
 * Confirmação de atendimento
 * Interface mobile-first
+* Responsividade para tablet
 * Dashboard administrativo
 * Histórico de agendamentos
 
@@ -65,9 +74,10 @@ Em desenvolvimento.
 
 Atualmente o projeto possui:
 
-* protótipo inicial,
-* fluxo de navegação,
-* estrutura visual mobile,
+* protótipo mobile finalizado,
+* protótipo tablet finalizado,
+* fluxo navegável completo,
+* estrutura visual responsiva,
 * identidade visual definida.
 
 ---
