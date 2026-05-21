@@ -24,6 +24,12 @@ Projeto acadêmico interdisciplinar do curso de Análise e Desenvolvimento de Si
 
 ---
 
+# Dashboard Administrativo
+
+![Dashboard Administrativo](assets/dashboard-admin.png)
+
+---
+
 # Objetivo
 
 O objetivo do sistema é otimizar o gerenciamento da barbearia Torres Barber Club, permitindo melhor controle de:
@@ -46,6 +52,10 @@ O objetivo do sistema é otimizar o gerenciamento da barbearia Torres Barber Clu
 * Responsividade para tablet
 * Dashboard administrativo
 * Histórico de agendamentos
+* Painel administrativo desktop
+* Visualização de agenda
+* Controle de atendimentos
+* Dashboard gerencial
 
 ---
 
@@ -76,6 +86,7 @@ Atualmente o projeto possui:
 
 * protótipo mobile finalizado,
 * protótipo tablet finalizado,
+* dashboard administrativo desktop,
 * fluxo navegável completo,
 * estrutura visual responsiva,
 * identidade visual definida.
