@@ -93,6 +93,12 @@ Atualmente o projeto possui:
 
 ---
 
+# Modelagem do Banco de Dados
+
+![DER](assets/database/der-torres-barber-club.png)
+
+---
+
 # Autora
 
 Rebeca Marinho
