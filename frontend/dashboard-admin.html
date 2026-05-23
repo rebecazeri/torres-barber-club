@@ -1,0 +1,189 @@
+<!-- frontend/dashboard-admin.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashboard Administrativo - Torres Barber Club</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="dashboard-page">
+    <aside class="sidebar">
+      <div class="sidebar-logo">
+        <div class="sidebar-logo-main">TORRES</div>
+        <div class="sidebar-logo-sub">BARBER CLUB</div>
+      </div>
+      <nav class="sidebar-menu">
+        <a href="#" class="menu-item active">
+          <span class="menu-item-icon">⌗</span>Dashboard
+        </a>
+        <a href="#" class="menu-item">
+          <span class="menu-item-icon">✎</span>Agendamentos
+        </a>
+        <a href="#" class="menu-item">
+          <span class="menu-item-icon">👤</span>Clientes
+        </a>
+        <a href="#" class="menu-item">
+          <span class="menu-item-icon">✂</span>Barbeiros
+        </a>
+        <a href="#" class="menu-item">
+          <span class="menu-item-icon">≡</span>Serviços
+        </a>
+        <a href="#" class="menu-item">
+          <span class="menu-item-icon">📊</span>Relatórios
+        </a>
+        <a href="#" class="menu-item">
+          <span class="menu-item-icon">⚙</span>Configurações
+        </a>
+      </nav>
+      <button class="btn-logout" type="button">Sair</button>
+    </aside>
+
+    <main class="main-dashboard">
+      <header class="dashboard-header">
+        <div>
+          <h1 class="dashboard-title">Dashboard Administrativo</h1>
+          <p class="dashboard-subtitle">
+            Visão geral da operação da Torres Barber Club
+          </p>
+        </div>
+        <div class="dashboard-avatar">A</div>
+      </header>
+
+      <section class="metrics-cards">
+        <article class="metric-card">
+          <p class="metric-title">Agendamentos Totais</p>
+          <p class="metric-value">128</p>
+          <p class="metric-subtext">no mês atual</p>
+        </article>
+        <article class="metric-card">
+          <p class="metric-title">Clientes Cadastrados</p>
+          <p class="metric-value">84</p>
+          <p class="metric-subtext">base ativa</p>
+        </article>
+        <article class="metric-card">
+          <p class="metric-title">Receita Mensal</p>
+          <p class="metric-value">R$ 6.450</p>
+          <p class="metric-subtext">serviços realizados</p>
+        </article>
+        <article class="metric-card">
+          <p class="metric-title">Barbeiros Ativos</p>
+          <p class="metric-value">03</p>
+          <p class="metric-subtext">disponíveis</p>
+        </article>
+      </section>
+
+      <section class="dashboard-grid">
+        <div class="left-column">
+          <section class="dashboard-card chart-card">
+            <h2 class="chart-title">Evolução de Agendamentos</h2>
+            <p class="chart-subtitle">Últimos 6 meses</p>
+            <div class="chart-bars">
+              <div class="chart-bar" style="height: 120px">
+                <span class="bar-label">Julho</span>
+              </div>
+              <div class="chart-bar" style="height: 105px">
+                <span class="bar-label">Agosto</span>
+              </div>
+              <div class="chart-bar" style="height: 90px">
+                <span class="bar-label">Setembro</span>
+              </div>
+              <div class="chart-bar" style="height: 115px">
+                <span class="bar-label">Outubro</span>
+              </div>
+              <div class="chart-bar" style="height: 125px">
+                <span class="bar-label">Novembro</span>
+              </div>
+              <div class="chart-bar" style="height: 130px">
+                <span class="bar-label">Dezembro</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="dashboard-card last-appointments">
+            <h2>Últimos Agendamentos</h2>
+            <p class="subheading">Acompanhamento dos atendimentos recentes</p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Cliente</th>
+                  <th>Serviço</th>
+                  <th>Barbeiro</th>
+                  <th>Status</th>
+                  <th>Ação</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Pedro</td>
+                  <td>Combo</td>
+                  <td>Gabriel</td>
+                  <td class="status-confirmed">Confirmado</td>
+                  <td><button class="btn-action">Editar</button></td>
+                </tr>
+                <tr>
+                  <td>Lucas</td>
+                  <td>Corte</td>
+                  <td>Leonardo</td>
+                  <td class="status-completed">Concluído</td>
+                  <td><button class="btn-action">Ver</button></td>
+                </tr>
+                <tr>
+                  <td>Rafael</td>
+                  <td>Barba</td>
+                  <td>Gabriel</td>
+                  <td class="status-canceled">Cancelado</td>
+                  <td><button class="btn-action">Ver</button></td>
+                </tr>
+                <tr>
+                  <td>João</td>
+                  <td>Combo</td>
+                  <td>Rebeca</td>
+                  <td class="status-pending">Pendente</td>
+                  <td><button class="btn-action">Editar</button></td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </div>
+
+        <div class="right-column">
+          <section class="dashboard-card reports-card">
+            <h2>Relatórios</h2>
+            <form>
+              <label for="data-inicial">Data inicial</label>
+              <input id="data-inicial" type="text" placeholder="Data inicial" />
+              <label for="data-final">Data final</label>
+              <input id="data-final" type="text" placeholder="Data final" />
+              <button type="submit" class="btn-generate-report">
+                GERAR RELATÓRIO
+              </button>
+            </form>
+          </section>
+
+          <section class="dashboard-card summary-card">
+            <h2>Resumo Operacional</h2>
+            <div class="summary-item">
+              <span>Serviços realizados</span>
+              <strong>92</strong>
+            </div>
+            <div class="summary-item">
+              <span>Cancelamentos</span>
+              <strong>08</strong>
+            </div>
+            <div class="summary-item">
+              <span>Ticket médio</span>
+              <strong>R$ 50</strong>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

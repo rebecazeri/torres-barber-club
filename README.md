@@ -1,104 +1,186 @@
-# Torres Barber Club
+# TORRES BARBER CLUB
 
-Sistema web/mobile para gerenciamento de agendamentos de uma barbearia premium.
+Sistema web desenvolvido para gerenciamento de agendamentos e operação administrativa de uma barbearia premium.
 
-Projeto acadêmico interdisciplinar do curso de Análise e Desenvolvimento de Sistemas.
-
----
-
-# Preview do Sistema
-
-![Preview do Sistema](assets/preview.png)
+Projeto acadêmico interdisciplinar desenvolvido no curso de Análise e Desenvolvimento de Sistemas (PIM III).
 
 ---
 
-# Fluxo Completo Mobile
+## Objetivo do Projeto
 
-![Fluxo Completo](assets/fluxo-completo.png)
+O sistema Torres Barber Club foi desenvolvido com o objetivo de otimizar o gerenciamento operacional de uma barbearia, permitindo melhor controle administrativo e organização dos atendimentos realizados.
 
----
-
-# Fluxo Completo Tablet
-
-![Fluxo Completo Tablet](assets/fluxo-completo-tablet.png)
+A proposta do sistema é centralizar informações relacionadas aos clientes, barbeiros, serviços, pagamentos e agendamentos, oferecendo uma interface moderna, responsiva e intuitiva.
 
 ---
 
-# Dashboard Administrativo
+## Funcionalidades
+
+- Agendamento online
+- Seleção de barbeiro
+- Controle de horários
+- Dashboard administrativo
+- Interface responsiva
+- Estrutura orientada a objetos em C#
+- Modelagem de banco de dados relacional
+- Consultas SQL
+- Prototipação UX/UI
+- Organização Scrum com Trello
+- Controle de pagamentos
+- Histórico de atendimentos
+- Indicadores operacionais
+
+---
+
+## Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- C#
+- SQL
+- Figma
+- GitHub
+- dbdiagram.io
+- Trello
+- Visual Studio Code
+- .NET
+
+---
+
+## Preview do Sistema
+
+### Home Mobile
+
+![Home Mobile](assets/preview.png)
+
+---
+
+### Fluxo Mobile
+
+![Fluxo Mobile](assets/fluxo-completo.png)
+
+---
+
+### Fluxo Tablet
+
+![Fluxo Tablet](assets/fluxo-completo-tablet.png)
+
+---
+
+### Dashboard Administrativo
 
 ![Dashboard Administrativo](assets/dashboard-admin.png)
 
 ---
 
-# Objetivo
+## Modelagem do Banco de Dados
 
-O objetivo do sistema é otimizar o gerenciamento da barbearia Torres Barber Club, permitindo melhor controle de:
+O banco de dados foi modelado utilizando estrutura relacional, com entidades responsáveis pelo gerenciamento dos clientes, barbeiros, serviços, pagamentos e agendamentos.
 
-* clientes,
-* barbeiros,
-* serviços,
-* horários,
-* agendamentos.
+![DER](database/der-torres-barber-club.png)
 
 ---
 
-# Funcionalidades
+## Estrutura do Projeto
 
-* Agendamento online
-* Escolha de barbeiro
-* Seleção de horário
-* Confirmação de atendimento
-* Interface mobile-first
-* Responsividade para tablet
-* Dashboard administrativo
-* Histórico de agendamentos
-* Painel administrativo desktop
-* Visualização de agenda
-* Controle de atendimentos
-* Dashboard gerencial
-
----
-
-# UX/UI Design
-
-O projeto foi desenvolvido utilizando princípios de UX/UI Design com foco em:
-
-* usabilidade,
-* responsividade,
-* experiência mobile-first,
-* identidade visual premium,
-* fluxo intuitivo de navegação.
-
----
-
-# Ferramentas Utilizadas
-
-* Figma
-* GitHub
+```text
+torres-barber-club/
+│
+├── frontend/
+│   ├── css/
+│   ├── index.html
+│   └── dashboard-admin.html
+│
+├── backend-csharp/
+│   ├── TorresBarberClub.cs
+│   └── backend.csproj
+│
+├── database/
+│   ├── der-torres-barber-club.png
+│   └── consultas.sql
+│
+├── docs/
+│   ├── PIM-III-Torres-Barber-Club.pdf
+│   ├── dashboard-admin.png
+│   ├── fluxo-completo.png
+│   ├── fluxo-completo-tablet.png
+│   └── preview.png
+│
+└── README.md
+```
 
 ---
 
-# Status do Projeto
+## Programação Orientada a Objetos em C#
 
-Em desenvolvimento.
+A estrutura backend foi desenvolvida utilizando conceitos de Programação Orientada a Objetos (POO) com a linguagem C#.
 
-Atualmente o projeto possui:
+Foram implementadas classes representando:
 
-* protótipo mobile finalizado,
-* protótipo tablet finalizado,
-* dashboard administrativo desktop,
-* fluxo navegável completo,
-* estrutura visual responsiva,
-* identidade visual definida.
+- Cliente
+- Barbeiro
+- Serviço
+- Agendamento
+- Pagamento
+- Avaliação
+
+A aplicação utiliza conceitos como:
+
+- encapsulamento;
+- herança;
+- composição;
+- reutilização de código.
 
 ---
 
-# Modelagem do Banco de Dados
+## Banco de Dados e SQL
 
-![DER](assets/database/der-torres-barber-club.png)
+O sistema utiliza modelagem relacional para organização das informações da aplicação.
+
+As consultas SQL desenvolvidas incluem:
+
+- listagem de clientes;
+- listagem de barbeiros;
+- consultas de faturamento;
+- total de agendamentos;
+- relacionamentos utilizando INNER JOIN.
 
 ---
 
-# Autora
+## UX/UI Design
+
+O projeto foi desenvolvido seguindo princípios de UX/UI Design com foco em:
+
+- experiência mobile-first;
+- responsividade;
+- usabilidade;
+- navegação intuitiva;
+- identidade visual moderna;
+- organização visual dos componentes.
+
+---
+
+## Organização Ágil do Projeto
+
+O desenvolvimento foi organizado utilizando conceitos de Engenharia de Software Ágil e metodologia Scrum.
+
+As tarefas foram estruturadas em sprints e organizadas por meio do Trello, permitindo melhor controle do desenvolvimento do projeto.
+
+---
+
+## Status do Projeto
+
+Projeto acadêmico finalizado para apresentação no PIM III.
+
+---
+
+## Repositório
+
+GitHub:
+https://github.com/rebecazeri/torres-barber-club
+
+---
+
+## Autora
 
 Rebeca Marinho
